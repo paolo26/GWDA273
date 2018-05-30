@@ -1,0 +1,94 @@
+body {
+    background-color: #333;
+
+}
+
+@media screen and (min-width: 400px) {
+    body { background-color: #81afaf; }
+}
+
+@media screen and (min-width: 700px) {
+    body { background-color: #8caf81; }
+}
+
+@media screen and (min-width: 1200px) {
+    body { background-color: #ad81af; }
+}
+
+div {
+    background-color: brown;
+    /* width: 1800px; */
+    margin: auto;
+    padding: 20px;
+
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header, footer {
+    background-color: pink;
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+footer { font-size: 12px; }
+
+nav {
+    background-color: pink;
+    padding: 20px;
+    text-align: center;
+}
+nav a {
+    display: inline-block;
+    width: 100px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+nav a:hover { background-color: maroon; }
+nav a.youarehere { background-color: goldenrod; }
+
+
+main {
+    display: flex;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+#logo {
+  width: 200px;
+  height: 200px;
+}
+
+div.wrapper {
+	/* Responsive Design */
+	width: 90%;
+	max-width: 1800px;
+	min-width: 320px;
+
+	margin: auto;
+	outline: solid 1px red;
+}
+
+/*Form Styling*/
+.form-control {
+	background-color: lightgray;
+	height: 64px;
+	color: maroon;
+	font-size: 30px;
+}
+
+.btn-primary {
+	background-color: maroon;
+	font-size: 30px;
+}
+
+.horizontal-rule {
+	border-top: 1px solid #c0c0c0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
